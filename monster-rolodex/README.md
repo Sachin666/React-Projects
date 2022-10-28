@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Monster Rolodex contains User details through JSON user API with a feature filtering and finding user with the help of searchbar
+<img src="https://user-images.githubusercontent.com/20695270/198695327-fbf747fd-93ed-4165-833c-f475463412c7.png"><hr>
+<img src="https://user-images.githubusercontent.com/20695270/198695499-32151409-1701-4f73-a433-b2771dee5767.png">
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
