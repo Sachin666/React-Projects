@@ -1,0 +1,22 @@
+const BlogList = ({blogs, title, handleDelete}) => {
+
+
+    const blogging = blogs.map(blog => (
+        <div>
+        <div className="blog-preview" key={blog.id}>
+            <h2>{blog.title}</h2>
+            <p>written by {blog.author}</p>
+            <button onClick={() => handleDelete(blog.id)}>Delete</button>
+        </div>
+        </div>
+    ))
+
+    return (
+        <div className="blog-list">
+            <h2>{title}</h2>
+            {blogging}
+        </div>
+    )
+}
+
+export default BlogList
