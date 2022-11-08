@@ -59,3 +59,61 @@
   color: #46cae4;
   margin-bottom: 8px;
 }
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 1.3rem;
+  color: #4ebeef;
+  margin-bottom: 0.6rem;
+}
+
+.blog-details div {
+  margin: 1.2rem 0;
+}
+
+.blog-details p {
+  font-weight: bold;
+}
+
+/* .blog-details button {
+  background: #46cae4;
+  color: #333;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 8px;
+  cursor: pointer;
+} */
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 1.2rem;
+  color: #46cae4;
+  margin-bottom: 1.8rem;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 0.3rem 0.6rem;
+  margin: 0.6rem 0;
+  border: 1px solid #46cae4;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #46cae4;
+  color: #fff;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
