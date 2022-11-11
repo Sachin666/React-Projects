@@ -117,3 +117,12 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+.delete {
+  background: #46cae4;
+  color: #fff;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
