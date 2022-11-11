@@ -1,5 +1,14 @@
 # Getting Started with Create React App
 
+## Blog Saga- A micro bloggin app
+### Using the async JSON database and server for creating and deleting blogs
+#### npx json-server --watch data/db.json --port 8000
+
+<img src='https://user-images.githubusercontent.com/20695270/201344914-5669e2be-d398-4ede-9b6b-598721b261d4.png'>
+<hr>
+<img src='https://user-images.githubusercontent.com/20695270/201344939-a18f3712-c3ac-40b1-8c52-7b2691de62ec.png'>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
