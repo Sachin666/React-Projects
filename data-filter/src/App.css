@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: tomato;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flex {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  color: white;
+  margin-top: 10px;
+}
+
+td {
+  text-align: center;
+  background: #252525;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+tbody {
+  margin: 10px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus {
+  outline: 0;
+}
